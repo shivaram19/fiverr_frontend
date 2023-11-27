@@ -11,6 +11,7 @@ import Messages from './pages/messages/Messages'
 import Message from './pages/message/Message'
 import Login from './pages/login/Login'
 import Add from './pages/add/Add'
+import Register from './pages/register/Register'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -70,6 +71,10 @@ const App = () => {
         {
           path: "/login",
           element: <Login/>
+        },
+        {
+          path: "/register",
+          element: <Register />
         }
       ]
     },
